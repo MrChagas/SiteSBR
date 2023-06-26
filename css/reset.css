@@ -1,0 +1,9 @@
+:root{
+    --cor-principal: #2727f1;
+    --cor-secundaria: #ff0000e7;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat, Arial, Helvetica, sans-serif;
+}

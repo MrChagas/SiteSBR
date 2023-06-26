@@ -1,0 +1,19 @@
+h2{
+    margin: 15px;
+}
+.hist_SBR{
+    min-width: 500px;
+    max-width: 1500px;
+    margin: auto;
+}
+
+.hist_texto{
+    margin: 15px;
+    text-align: justify;
+    text-indent: 25px;
+    line-height: 20px;
+    font-weight: 500;
+}
+p{
+    line-height: 1.5em;
+}

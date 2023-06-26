@@ -1,0 +1,28 @@
+.navegacao{
+    padding: 10px;
+    text-align: center;
+    background-color: #ff0000e7;
+    box-shadow: 1px 2px 8px #8d70709c;
+}
+.navegacao ul{
+    padding: 0%;
+    margin: auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    white-space: nowrap;
+    align-items: center;
+}
+.item_navegacao a{
+    display: flex;
+    text-decoration: none;
+} 
+.text_nav{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-weight: 700;
+}
+.text_nav:hover{
+    color: rgb(190, 190, 190);
+}

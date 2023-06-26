@@ -1,0 +1,33 @@
+.conteudo{
+    list-style: none;
+    padding: 0;
+    margin-left: auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-evenly;
+}
+main h2{
+    padding: 20px;
+    text-align: center;
+}
+.redes{
+    margin-top: 20px;
+    padding: 5px;
+    background-color: #2727f1;
+    color: white;
+    text-align: center;
+}
+.text_redes{
+    align-items: center;
+    padding: 5px;
+}
+.sociais{
+    display: flex; 
+    margin: 5px;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
