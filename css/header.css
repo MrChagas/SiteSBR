@@ -3,3 +3,36 @@ header{
     background-color: #2727f1;
     text-align: center;
 }
+.btn_icon{
+    display: none;
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+@media screen and (max-width: 768px){
+    .btn_icon{
+        display: block;
+    }
+
+    .menu_nav{
+        position: absolute;
+        flex-direction: column !important;
+        top: 0;
+        background-color: #ff0000e7;
+        height: 100%;
+        width: 35vw;
+        padding: 1em;
+        animation-duration: 1s;
+        margin-left: -100vw;
+    }
+}
+@keyframes showNavbar {
+    from {margin-left: -100vw;}
+    to {margin-left: -10vw;}
+}
+
+@keyframes closeNavbar {
+    from {margin-left: -10vw;}
+    to {margin-left: -100vw;}
+}

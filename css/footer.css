@@ -62,3 +62,15 @@ footer{
 .dev a:hover{
     color: rgb(190, 190, 190);
 }
+
+@media (max-width: 768px) {
+    .coluna{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:600px) {
+    .coluna{
+        width: 100%;
+    }
+}
