@@ -12,17 +12,21 @@
     <link rel="stylesheet" href="css/navegacao.css">    
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/historia.css">
+    <link rel="stylesheet" href="css/media-query.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="js/script.js"></script>
 
     <title>SBR - Nossa História</title>
 </head>
-<body>
-    <header class="header" id="header" tabindex="0">
+<body onresize="mudouTamanho()">
+    <header class="header" tabindex="0">
         <a href="index.html">
             <img src="img/logoSBR.png" alt="LogoMercado" id="logo">
         </a>
     </header>
-    <nav class="navegacao" id="nav"><!--BARRA DE NAVEGAÇÃO-->
-        <ul class="menu_nav" id="menu_nav">
+    <nav class="navegacao" id="nav" main tabindex="0"><!--BARRA DE NAVEGAÇÃO-->
+        <i id="burger" class="material-icons" onclick="clickMenu()">menu</i>
+        <ul class="menu_nav" id="menu">
             <li class="item_navegacao">
                 <a rel="stylesheet" href="index.html" class="text_nav">Home</a>
             </li>
