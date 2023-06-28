@@ -1,3 +1,24 @@
+function clickMenu(){
+        if (menu.style.display == 'block'){
+            menu.style.display = 'none'
+        }else{
+            menu.style.display = 'block'
+        }
+}
+
+function mudouTamanho(){
+    if(window.innerWidth >= 768){
+        menu.style.display = 'flex'
+    } else{
+        menu.style.display = 'none'
+    }
+}
+
+
+
+
+
+
 /*var header           = document.getElementById('header');
     var navigationHeader = document.getElementById('menu_nav');
     var content          = document.getElementById('content');
@@ -20,7 +41,7 @@ function toggleSidebar()
     }
 }
 
-function closeSidebar()
+/*function closeSidebar()
 {
     if(showSidebar)
     {
@@ -35,7 +56,7 @@ window.addEventListener('resize', function(event) {
         showSidebar = true;
         toggleSidebar();
     }
-})*/
+})
 
 const headerNavbar = document.getElementById('menu_nav');
 let showNavbar = false;
@@ -62,4 +83,4 @@ window.addEventListener('resize', function(event) {
     if(window.innerWidth > 900 && showNavbar) {
         toggleNavbar();
     }
-})
+})*/

@@ -3,13 +3,26 @@ header{
     background-color: #2727f1;
     text-align: center;
 }
-.button{
+i#burger{
+    background-color: transparent;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+i#burger:hover{
+    background-color: #bd1313;
+    color: rgb(190, 190, 190);
+}
+/*.button{
     display: none;
     background-color: transparent;
     border: none;
     color: white;
     cursor: pointer;
-}
+}*/
+
 @media screen and (max-width: 768px){
     .button{
         display: none;
