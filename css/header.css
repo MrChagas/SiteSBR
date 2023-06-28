@@ -16,7 +16,7 @@ header{
     }
 
     .menu_nav{
-        position: absolute;
+        position: relative;
         flex-direction: column !important;
         top: 0;
         background-color: #ff0000e7;
