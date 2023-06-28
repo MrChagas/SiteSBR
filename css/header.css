@@ -3,7 +3,7 @@ header{
     background-color: #2727f1;
     text-align: center;
 }
-.btn_icon{
+.button{
     display: none;
     background-color: transparent;
     border: none;
@@ -11,15 +11,15 @@ header{
     cursor: pointer;
 }
 @media screen and (max-width: 768px){
-    .btn_icon{
-        display: block;
+    .button{
+        display: none;
     }
 
     .menu_nav{
         position: relative;
-        flex-direction: column !important;
+        flex-direction: column;
         top: 0;
-        background-color: #ff0000e7;
+        background-color: #f71919;
         height: 100%;
         width: 35vw;
         padding: 1em;

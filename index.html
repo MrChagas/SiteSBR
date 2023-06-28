@@ -11,21 +11,21 @@
     <link rel="stylesheet" href="css/header.css">   
     <link rel="stylesheet" href="css/navegacao.css">    
     <link rel="stylesheet" href="css/reset.css">
-    <script src="js/script.js"></script>
+    <script defer src="js/script.js"></script>
 
     <title>Supermercados Bom Retiro</title>
 </head>
 <body>
     <header class="header" tabindex="0">
-        <button onclick="toggleSidebar()" class="btn_icon">
+        <button onclick="toggleNavbar()" class="button button_open">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
             </svg>
         </button>
         <a href="index.html"><img src="img/logoSBR.png" alt="LogoMercado" id="logo"></a>
     </header>
-    <nav class="navegacao" id="nav"><!--BARRA DE NAVEGAÇÃO-->
-        <button onclick="toggleSidebar()" class="btn_icon">
+    <nav class="navegacao" id="nav" main tabindex="0" onclick="closeNavbar()"><!--BARRA DE NAVEGAÇÃO-->
+        <button onclick="toggleNavbar()" class="button button_close">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
                 <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
             </svg>
@@ -68,27 +68,42 @@
                 <div class="conteudo">
                     <li class="itens_conteudo">
                         <div>
-                            <a rel="stylesheet" href="https://www.sitemercado.com.br/bomretiro" target="_blank"><img src="img/promodia/batatakg.jpg" alt=""></a><p>Batata Kg<br>Apenas R$2,99</p>
+                            <a rel="stylesheet" href="https://www.sitemercado.com.br/bomretiro" target="_blank">
+                                <img src="img/promodia/batatakg.jpg" alt="">
+                            </a>
+                            <p>Batata Kg<br>Apenas R$2,99</p>
                         </div>
                     </li>    
                     <li class="itens_conteudo">   
                         <div>
-                            <a rel="stylesheet" href="https://www.sitemercado.com.br/bomretiro" target="_blank"><img src="img/promodia/arrozanceli5kg.jpg" alt=""></a><p>Arroz Ancéli 5KG <br> Apenas R$10,99</p>
+                            <a rel="stylesheet" href="https://www.sitemercado.com.br/bomretiro" target="_blank">
+                                <img src="img/promodia/arrozanceli5kg.jpg" alt="">
+                            </a>
+                            <p>Arroz Ancéli 5KG <br> Apenas R$10,99</p>
                         </div>
                     </li>
                     <li class="itens_conteudo">   
                         <div>
-                            <a rel="stylesheet" href="https://www.sitemercado.com.br/bomretiro" target="_blank"><img src="img/promodia/cebolakg.jpg" alt=""></a><p>Cebola KG<br>Apenas R$2,99</p>
+                            <a rel="stylesheet" href="https://www.sitemercado.com.br/bomretiro" target="_blank">
+                                <img src="img/promodia/cebolakg.jpg" alt="">
+                            </a>
+                            <p>Cebola KG<br>Apenas R$2,99</p>
                         </div>
                     </li>
                     <li class="itens_conteudo">
                         <div>
-                            <a rel="stylesheet" href="https://www.sitemercado.com.br/bomretiro" target="_blank"><img src="img/promodia/bananananicakg.jpg" alt=""></a><p>Banana Nanica KG <br>Apenas R$2,29</p>
+                            <a rel="stylesheet" href="https://www.sitemercado.com.br/bomretiro" target="_blank">
+                                <img src="img/promodia/bananananicakg.jpg" alt="">
+                            </a>
+                            <p>Banana Nanica KG <br>Apenas R$2,29</p>
                         </div>
                     </li>
                     <li class="itens_conteudo">
                         <div>
-                            <a rel="stylesheet" href="https://www.sitemercado.com.br/bomretiro" target="_blank"><img src="img/promodia/macarraoorquidea500gr.jpg" alt=""></a><p>Macarrão Orquídea<br>Apenas R$2,99</p>
+                            <a rel="stylesheet" href="https://www.sitemercado.com.br/bomretiro" target="_blank">
+                                <img src="img/promodia/macarraoorquidea500gr.jpg" alt="">
+                            </a>
+                            <p>Macarrão Orquídea<br>Apenas R$2,99</p>
                         </div>
                     </li>
                 </div>
@@ -124,7 +139,7 @@
               <div class="coluna">
                 <h4>Sobre Nós</h4>
                 <ul>
-                    <li><a href="historia.html">Nossa História</a></li>
+                    <li><a href="pages/historia.html">Nossa História</a></li>
                     <li><a href="#">Linha SBR</a></li>
                     <li><a href="http://www.redeativa.com.br/" target="_blank">Rede Ativa</a></li>
                     <li><a href="#">Pagamentos</a></li>
