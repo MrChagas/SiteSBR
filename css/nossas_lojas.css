@@ -1,0 +1,40 @@
+.text_lojas{
+    padding:10px;
+}
+
+main{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.end_lojas{
+    padding: 10px;
+    margin: auto;
+    line-height: 1.5em;
+    width: auto;
+    align-items: center;
+}
+.end_lojas ul{
+    list-style: none;
+}
+.func{
+    text-indent: 10px;
+    font-size: small;
+    font-weight: 600; 
+}
+.hor{
+    text-indent: 10px;
+    font-size: small;
+    font-weight: 400; 
+}
+.email{
+    text-decoration: none;
+    color: black;
+}
+.email:hover{
+    color: blue;
+}
+#linha-vertical {
+    height: auto;
+    border-right: 1px solid rgb(99, 99, 99);
+}
