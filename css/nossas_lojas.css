@@ -8,6 +8,9 @@ main{
     flex-wrap: wrap;
     
 }
+.lojas{
+    font-weight: 500;
+}
 .end_lojas{
     padding: 10px;
     margin: auto;
@@ -33,7 +36,7 @@ main{
     color: black;
 }
 .email:hover{
-    color: blue;
+    color: #2727f1;
 }
 #linha-vertical {
     height: auto;
